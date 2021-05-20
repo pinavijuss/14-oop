@@ -1,11 +1,22 @@
+/*
+
 const Dog = require('./js/Dog');
-
-const rexas = new Dog('Rex', 'ginger');
-const spaikas = new Dog('Spike', 'white');
-
-console.log(spaikas);
-console.log(rexas);
-
-spaikas.voice();
+const Cat = require('./js/Cat');
+const Rabbit = require('./js/Rabbit');
+*/
+const Bmw = require('./masinos/Bmw');
+/*
+const rexas = new Dog('Rex', 'brown');
 rexas.voice();
-rexas.voice();
+
+const rainis = new Cat('Rainis', 'golden');
+rainis.voice();
+
+const benas = new Rabbit('Benas', 'black');
+benas.voice();
+*/
+const chuligankeBmw = new Bmw('Bmw', 'Left', 5, 4);
+console.log(chuligankeBmw);
+console.log(chuligankeBmw.engineIsOn);
+chuligankeBmw.turnOnTheEngine();
+console.log(chuligankeBmw.engineIsOn);
